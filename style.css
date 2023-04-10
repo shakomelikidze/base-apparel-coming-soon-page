@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 820px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(150.03deg, #FFFFFF 0%, #FFF4F4 84.51%);
+        height: 100vh;
+    }
+
+    .right-block {
+        order: 1;
+    }
+
+    .left-block {
+        order: 2;
+    }
+
+    .logo-for-mobile {
+        width: 100px;
+        margin-top: 31px;
+        margin-left: 32px;
+        margin-bottom: 32px;
+    }
+
+    .logo-for-desktop {
+        display: none;
+    }
+
+    .girl-img-desktop {
+        display: none;
+    }
+
+    .girl-img-mobile {
+        width: 100%;
+    }
+
+    .info-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 64px;
+    }
+
+    .pink-header-txt {
+        font-family: 'Josefin Sans';
+        font-weight: 300;
+        font-size: 40px;
+        line-height: 42px;
+        letter-spacing: 10.8254px;
+        color: #CE9898;
+    }
+
+    .black-header-txt {
+        font-family: 'Josefin Sans';
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 42px;
+        letter-spacing: 10.8254px;
+        text-align: center;
+        color: #423A3A;
+    }
+
+    .pink-info-txt {
+        margin-top: 16px;
+        width: 311px;
+        font-family: 'Josefin Sans';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        color: #CE9898;
+    }
+
+    .search-box {
+        margin-left: 10vw;
+        margin-top: 32px;
+        margin-bottom: 92px;
+    }
+
+    .input-box-style {
+        width: 311px;
+        height: 48px;
+        padding-left: 20px; 
+        margin-bottom: 0px;
+        opacity: 0.5;
+        border: 1px solid #CE9898;
+        border-radius: 28px;
+    }
+
+    .button-style {
+        width: 64px;
+        height: 48px;
+        position: relative;
+        top: 4px;
+        margin-left: -68px;
+        border: none;
+        background: linear-gradient(135deg, #F8BFBF 0%, #EE8B8B 100%);
+        box-shadow: 0px 15px 20px rgba(198, 110, 110, 0.247569);
+        border-radius: 28px;
+    }
+
+    .error-icon {
+        position: relative;
+        left: 215px;
+        top: -36px;
+        display: none;
+    }
+
+    .error-txt {
+        font-family: 'Josefin Sans';
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 13px;
+        color: #F96464;
+        margin-left: 20px;
+        display: none;
+    }
+
+    .visible {
+        display: block;
+    }
+
+}
+
+@media screen and (min-width: 820px) {
+
+    body {
+        background-image: url("https://cdn.glitch.global/06796e99-08c5-447e-a12d-686e8d4fc41a/bg-pattern-desktop.svg?v=1679229117873");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .left-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 800px;
+    }
+
+    .logo-for-desktop {
+        width: 158px;
+    }
+
+    .logo-for-mobile {
+        display: none;
+    }
+
+    .girl-img-mobile {
+        display: none;
+    }
+
+    .info-box {
+        width: 445px;
+    }
+
+    .pink-header-txt {
+        font-family: 'Josefin Sans';
+        font-weight: 300;
+        font-size: 64px;
+        line-height: 64px;
+        letter-spacing: 17.3206px;
+        color: #CE9898;
+    }
+
+    .black-header-txt {
+        font-family: 'Josefin Sans';
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 71px;
+        letter-spacing: 17.3206px;
+        color: #423A3A;
+    }
+
+    .pink-info-txt {
+        font-family: 'Josefin Sans';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #CE9898;
+    }
+
+    .input-box-style {
+        width: 445px;
+        height: 56px;
+        padding-left: 20px; 
+        opacity: 0.5;
+        border: 1px solid #CE9898;
+        border-radius: 28px;
+    }
+
+    .button-style {
+        width: 100px;
+        height: 56px;
+        position: relative;
+        left: -104px;
+        top: 4px;
+        border: none;
+        background: linear-gradient(135deg, #F8BFBF 0%, #EE8B8B 100%);
+        box-shadow: 0px 15px 20px rgba(198, 110, 110, 0.247569);
+        border-radius: 28px;
+    }
+
+    .error-icon {
+        position: relative;
+        left: 310px;
+        top: -40px;
+        display: none;
+    }
+
+    .error-txt {
+        font-family: 'Josefin Sans';
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 13px;
+        color: #F96464;
+        margin-left: 20px;
+        display: none;
+    }
+
+    .visible {
+        display: block;
+    }
+
+}
